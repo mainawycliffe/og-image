@@ -49,6 +49,7 @@ function getCss(fontSize: string) {
 
     body > div {
         width: 100%;
+        padding: 0.5rem;
     }
 
     code {

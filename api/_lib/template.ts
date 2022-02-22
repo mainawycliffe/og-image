@@ -10,7 +10,7 @@ const bold = readFileSync(`${__dirname}/../_fonts/Inter-Bold.woff2`).toString('b
 const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('base64');
 
 function getCss(fontSize: string) {
-  let background = 'white';
+  let background = '#e0e0fd';
   let foreground = '#000033';
   let foreground2 = '#4D4DFF';
 
